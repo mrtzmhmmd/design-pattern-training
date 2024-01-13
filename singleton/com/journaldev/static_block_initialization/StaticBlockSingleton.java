@@ -4,7 +4,7 @@ public class StaticBlockSingleton {
 
     private static final StaticBlockSingleton instance;
 
-    public StaticBlockSingleton() {
+    private StaticBlockSingleton() {
     }
 
     static {

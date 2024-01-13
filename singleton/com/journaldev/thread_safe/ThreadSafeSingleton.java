@@ -4,7 +4,7 @@ public class ThreadSafeSingleton {
     private static ThreadSafeSingleton instance;
     public String value;
 
-    public ThreadSafeSingleton(String value) {
+    private ThreadSafeSingleton(String value) {
         this.value = value;
     }
 
